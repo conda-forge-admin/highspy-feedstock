@@ -43,9 +43,10 @@ test:
   imports:
     - highspy
   commands:
-    - python -m unittest tests/test_highspy.py
+    - python -m pytest tests/test_highspy.py
   requires:
     - pip
+    - pytest
   commands:
     - pip check
 
